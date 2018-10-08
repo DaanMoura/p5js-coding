@@ -1,6 +1,6 @@
 function setup() {
   createCanvas(800, 600);
-  angle_slider = createSlider(0, TWO_PI, PI, 0.05);
+  angle_slider = createSlider(0, TWO_PI, PI / 6, 0.05);
   len_slider = createSlider(0, 600, 100, 1);
 }
 
