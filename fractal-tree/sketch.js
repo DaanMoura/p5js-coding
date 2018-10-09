@@ -6,8 +6,8 @@ function setup() {
 
 function draw() {
   background(20);
-  angle = angle_slider.value();
-  len = len_slider.value();
+  angle = mouseY / 250;
+  len = mouseX / 5;
   stroke(255);
   translate(width / 2, height);
   branch(len);
